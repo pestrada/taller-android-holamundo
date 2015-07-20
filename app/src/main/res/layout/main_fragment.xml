@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Captura tu nombre"
+        android:textColor="#000"
+        android:textSize="80px"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar"
+        android:textColor="#fff"
+        android:background="#00f"
+        android:layout_marginLeft="20px"
+        android:layout_margin="30px"
+        android:padding="30px"
+        android:textSize="60px" />
+
+    <Button
+        android:id="@+id/btnOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opciones"
+        android:textSize="60px"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="60px"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasar a Inicio"
+        android:textSize="60px"/>
+
+</LinearLayout>

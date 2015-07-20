@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HolaMundo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dialogo_titulo">Deseas continuar?</string>
+    <string name="opcion_positiva">Si</string>
+    <string name="opcion_negativa">No</string>
+</resources>
